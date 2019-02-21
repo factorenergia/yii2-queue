@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue;
+namespace factorenergia\queue;
 
 /**
  * Retryable Job Interface.
