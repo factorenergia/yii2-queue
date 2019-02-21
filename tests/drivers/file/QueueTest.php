@@ -10,7 +10,7 @@ namespace tests\drivers\file;
 use tests\app\RetryJob;
 use tests\drivers\CliTestCase;
 use Yii;
-use yii\queue\file\Queue;
+use factorenergia\queue\file\Queue;
 
 /**
  * File Queue Test.

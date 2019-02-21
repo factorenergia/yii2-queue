@@ -10,7 +10,7 @@
 return [
     'components' => [
         'queue' => [
-            'class' => \yii\queue\sync\Queue::class,
+            'class' => \factorenergia\queue\sync\Queue::class,
             'handle' => false, // Флаг необходимости выполнять поставленные в очередь задания
         ],
     ],

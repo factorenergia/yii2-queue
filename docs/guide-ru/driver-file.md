@@ -12,7 +12,7 @@ return [
     ],
     'components' => [
         'queue' => [
-            'class' => \yii\queue\file\Queue::class,
+            'class' => \factorenergia\queue\file\Queue::class,
             'path' => '@runtime/queue',
         ],
     ],

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\amqp;
+namespace factorenergia\queue\amqp;
 
 use PhpAmqpLib\Channel\AMQPChannel;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
@@ -13,7 +13,7 @@ use PhpAmqpLib\Message\AMQPMessage;
 use yii\base\Application as BaseApp;
 use yii\base\Event;
 use yii\base\NotSupportedException;
-use yii\queue\cli\Queue as CliQueue;
+use factorenergia\queue\cli\Queue as CliQueue;
 
 /**
  * Amqp Queue.

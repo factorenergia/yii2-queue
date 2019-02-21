@@ -5,13 +5,13 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\sqs;
+namespace factorenergia\queue\sqs;
 
 use Aws\Credentials\CredentialProvider;
 use Aws\Sqs\SqsClient;
 use yii\base\NotSupportedException;
-use yii\queue\cli\Queue as CliQueue;
-use yii\queue\serializers\JsonSerializer;
+use factorenergia\queue\cli\Queue as CliQueue;
+use factorenergia\queue\serializers\JsonSerializer;
 
 /**
  * SQS Queue.

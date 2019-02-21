@@ -8,7 +8,7 @@
 namespace tests\app\benchmark\waiting;
 
 use yii\base\BaseObject;
-use yii\queue\JobInterface;
+use factorenergia\queue\JobInterface;
 
 /**
  * The job calculates waiting time.

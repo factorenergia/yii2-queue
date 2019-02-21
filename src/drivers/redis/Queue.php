@@ -5,12 +5,12 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\redis;
+namespace factorenergia\queue\redis;
 
 use yii\base\InvalidArgumentException;
 use yii\base\NotSupportedException;
 use yii\di\Instance;
-use yii\queue\cli\Queue as CliQueue;
+use factorenergia\queue\cli\Queue as CliQueue;
 use yii\redis\Connection;
 
 /**

@@ -7,7 +7,7 @@
 
 namespace tests\serializers;
 
-use yii\queue\serializers\IgbinarySerializer;
+use factorenergia\queue\serializers\IgbinarySerializer;
 
 /**
  * Igbinary Serializer Test.

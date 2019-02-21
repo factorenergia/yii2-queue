@@ -5,12 +5,12 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\sync;
+namespace factorenergia\queue\sync;
 
 use Yii;
 use yii\base\Application;
 use yii\base\InvalidArgumentException;
-use yii\queue\Queue as BaseQueue;
+use factorenergia\queue\Queue as BaseQueue;
 
 /**
  * Sync Queue.

@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\redis;
+namespace factorenergia\queue\redis;
 
 use yii\helpers\Console;
-use yii\queue\cli\Action;
+use factorenergia\queue\cli\Action;
 
 /**
  * Info about queue status.

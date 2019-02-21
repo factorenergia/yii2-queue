@@ -12,7 +12,7 @@ return [
     ],
     'components' => [
         'queue' => [
-            'class' => \yii\queue\beanstalk\Queue::class,
+            'class' => \factorenergia\queue\beanstalk\Queue::class,
             'host' => 'localhost',
             'port' => 11300,
             'tube' => 'queue',

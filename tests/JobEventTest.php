@@ -7,12 +7,12 @@
 
 namespace tests;
 
-use yii\queue\closure\Behavior as ClosureBehavior;
-use yii\queue\ExecEvent;
-use yii\queue\InvalidJobException;
-use yii\queue\JobEvent;
-use yii\queue\Queue;
-use yii\queue\sync\Queue as SyncQueue;
+use factorenergia\queue\closure\Behavior as ClosureBehavior;
+use factorenergia\queue\ExecEvent;
+use factorenergia\queue\InvalidJobException;
+use factorenergia\queue\JobEvent;
+use factorenergia\queue\Queue;
+use factorenergia\queue\sync\Queue as SyncQueue;
 
 /**
  * Job Event Test

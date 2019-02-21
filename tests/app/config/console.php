@@ -6,7 +6,7 @@ return [
             'db' => 'mysql',
             'migrationPath' => null,
             'migrationNamespaces' => [
-                'yii\queue\db\migrations',
+                'factorenergia\queue\db\migrations',
             ],
         ],
         'sqlite-migrate' => [
@@ -14,7 +14,7 @@ return [
             'db' => 'sqlite',
             'migrationPath' => null,
             'migrationNamespaces' => [
-                'yii\queue\db\migrations',
+                'factorenergia\queue\db\migrations',
             ],
         ],
         'pgsql-migrate' => [
@@ -22,7 +22,7 @@ return [
             'db' => 'pgsql',
             'migrationPath' => null,
             'migrationNamespaces' => [
-                'yii\queue\db\migrations',
+                'factorenergia\queue\db\migrations',
             ],
         ],
         'benchmark' => \tests\app\benchmark\Controller::class,

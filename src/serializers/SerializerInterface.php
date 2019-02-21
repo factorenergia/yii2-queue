@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\serializers;
+namespace factorenergia\queue\serializers;
 
-use yii\queue\JobInterface;
+use factorenergia\queue\JobInterface;
 
 /**
  * Serializer Interface.

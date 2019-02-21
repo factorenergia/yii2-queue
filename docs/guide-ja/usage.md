@@ -14,8 +14,8 @@ return [
     ],
     'components' => [
         'queue' => [
-            'class' => \yii\queue\<driver>\Queue::class,
-            'as log' => \yii\queue\LogBehavior::class,
+            'class' => \factorenergia\queue\<driver>\Queue::class,
+            'as log' => \factorenergia\queue\LogBehavior::class,
             // 他のドライバ・オプション
         ],
     ],
@@ -32,7 +32,7 @@ return [
 例えば、ファイルをダウンロードして保存すう必要がある場合、そのクラスは以下のようなものになります。
 
 ```php
-class DownloadJob extends BaseObject implements \yii\queue\JobInterface
+class DownloadJob extends BaseObject implements \factorenergia\queue\JobInterface
 {
     public $url;
     public $file;
@@ -116,9 +116,9 @@ Yii::$app->queue->push([
 return [
     'components' => [
         'queue' => [
-            'class' => \yii\queue\<driver>\Queue::class,
+            'class' => \factorenergia\queue\<driver>\Queue::class,
             'strictJobType' => false,
-            'serializer' => \yii\queue\serializers\JsonSerializer::class,
+            'serializer' => \factorenergia\queue\serializers\JsonSerializer::class,
         ],
     ],
 ];
@@ -164,8 +164,8 @@ queue コンポーネントは [Yii の内蔵ロガー](http://www.yiiframework.
 return [
     'components' => [
         'queue' => [
-            'class' => \yii\queue\redis\Queue::class,
-            'as log' => \yii\queue\LogBehavior::class
+            'class' => \factorenergia\queue\redis\Queue::class,
+            'as log' => \factorenergia\queue\LogBehavior::class
         ],
     ],
 ];
@@ -185,12 +185,12 @@ return [
     ],
     'components' => [
         'queue1' => [
-            'class' => \yii\queue\redis\Queue::class,
+            'class' => \factorenergia\queue\redis\Queue::class,
         ],
         'queue2' => [
-            'class' => \yii\queue\db\Queue::class,
+            'class' => \factorenergia\queue\db\Queue::class,
             'strictJobType' => false,
-            'serializer' => \yii\queue\serializers\JsonSerializer::class,
+            'serializer' => \factorenergia\queue\serializers\JsonSerializer::class,
         ],
     ],
 ];
@@ -239,7 +239,7 @@ Yii::$app->queue->push(new SomeJob([
 タスク・クラス:
 
 ```php
-class SomeJob extends BaseObject implements \yii\queue\JobInterface
+class SomeJob extends BaseObject implements \factorenergia\queue\JobInterface
 {
     public $userId;
     public $bookId;

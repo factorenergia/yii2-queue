@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\amqp;
+namespace factorenergia\queue\amqp;
 
-use yii\queue\cli\Command as CliCommand;
+use factorenergia\queue\cli\Command as CliCommand;
 
 /**
  * Manages application amqp-queue.

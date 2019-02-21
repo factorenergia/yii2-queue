@@ -12,8 +12,8 @@ use yii\base\Component;
 use yii\base\InvalidArgumentException;
 use yii\di\Instance;
 use yii\helpers\VarDumper;
-use yii\queue\serializers\PhpSerializer;
-use yii\queue\serializers\SerializerInterface;
+use factorenergia\queue\serializers\PhpSerializer;
+use factorenergia\queue\serializers\SerializerInterface;
 
 /**
  * Base Queue.

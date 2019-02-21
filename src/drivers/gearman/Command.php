@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\gearman;
+namespace factorenergia\queue\gearman;
 
-use yii\queue\cli\Command as CliCommand;
+use factorenergia\queue\cli\Command as CliCommand;
 
 /**
  * Manages application gearman-queue.

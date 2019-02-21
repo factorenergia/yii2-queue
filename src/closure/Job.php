@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\closure;
+namespace factorenergia\queue\closure;
 
 use SuperClosure\Serializer;
-use yii\queue\JobInterface;
+use factorenergia\queue\JobInterface;
 
 /**
  * Closure Job.

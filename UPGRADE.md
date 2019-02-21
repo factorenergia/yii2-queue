@@ -7,8 +7,8 @@ application when you upgrade the package from one version to another.
 Upgrade to 2.1.1
 ----------------
 
-* `\yii\queue\ErrorEvent` has been deprecated and will be removed in `3.0`.
-  Use `\yii\queue\ExecEvent` instead.
+* `\factorenergia\queue\ErrorEvent` has been deprecated and will be removed in `3.0`.
+  Use `\factorenergia\queue\ExecEvent` instead.
 
 Upgrade from 2.0.1 to 2.0.2
 ---------------------------
@@ -16,11 +16,11 @@ Upgrade from 2.0.1 to 2.0.2
 * The [Amqp driver](docs/guide/driver-amqp.md) has been deprecated and will be removed in `2.1`.
   It is advised to migrate to [Amqp Interop](docs/guide/driver-amqp-interop.md) instead.
 
-* Added `\yii\queue\cli\Command::isWorkerAction()` abstract method. If you use your own console
+* Added `\factorenergia\queue\cli\Command::isWorkerAction()` abstract method. If you use your own console
   controllers to run queue listeners, you must implement it.
 
-* `\yii\queue\cli\Signal` helper is deprecated and will be removed in `2.1`.  The extension uses
-  `\yii\queue\cli\SignalLoop` instead of the helper.
+* `\factorenergia\queue\cli\Signal` helper is deprecated and will be removed in `2.1`.  The extension uses
+  `\factorenergia\queue\cli\SignalLoop` instead of the helper.
 
 * If you use your own console controller to listen to a queue, you must upgrade it. See the native
   console controllers for how to upgrade.
@@ -28,7 +28,7 @@ Upgrade from 2.0.1 to 2.0.2
 Upgrade from 2.0.0 to 2.0.1
 ---------------------------
 
-* `yii\queue\cli\Verbose` behavior was renamed to `yii\queue\cli\VerboseBehavior`. The old class was
+* `factorenergia\queue\cli\Verbose` behavior was renamed to `factorenergia\queue\cli\VerboseBehavior`. The old class was
   marked as deprecated and will be removed in `2.1.0`.
 
 * `Job`, `RetryableJob` and `Serializer` interfaces were renamed to `JobInterface`,
@@ -75,7 +75,7 @@ Upgrade from 0.10.1
 
   ```php
   'queue' => [
-      'class' => \zhuravljov\yii\queue\db\Queue::class,
+      'class' => \zhuravljov\factorenergia\queue\db\Queue::class,
       'db' => 'db',
       'tableName' => '{{%queue}}',
       'channel' => 'default',
@@ -87,9 +87,9 @@ Upgrade from 0.10.1
 
   ```php
   'queue' => [
-      'class' => \zhuravljov\yii\queue\Queue::class,
+      'class' => \zhuravljov\factorenergia\queue\Queue::class,
       'driver' => [
-          'class' => \yii\queue\db\Driver::class,
+          'class' => \factorenergia\queue\db\Driver::class,
           'db' => 'db',
           'tableName' => '{{%queue}}'
           'channel' => 'default',

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\cli;
+namespace factorenergia\queue\cli;
 
 /**
  * Loop Interface.

@@ -9,7 +9,7 @@ namespace tests\app;
 
 use Yii;
 use yii\base\BaseObject;
-use yii\queue\RetryableJobInterface;
+use factorenergia\queue\RetryableJobInterface;
 
 /**
  * Retry Job.

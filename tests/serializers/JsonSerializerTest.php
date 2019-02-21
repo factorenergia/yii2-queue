@@ -7,7 +7,7 @@
 
 namespace tests\serializers;
 
-use yii\queue\serializers\JsonSerializer;
+use factorenergia\queue\serializers\JsonSerializer;
 
 /**
  * Json Serializer Test.

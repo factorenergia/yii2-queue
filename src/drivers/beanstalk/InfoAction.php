@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\beanstalk;
+namespace factorenergia\queue\beanstalk;
 
 use yii\helpers\Console;
-use yii\queue\cli\Action;
+use factorenergia\queue\cli\Action;
 
 /**
  * Info about queue status.

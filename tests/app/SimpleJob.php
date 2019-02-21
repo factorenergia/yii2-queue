@@ -9,7 +9,7 @@ namespace tests\app;
 
 use Yii;
 use yii\base\BaseObject;
-use yii\queue\JobInterface;
+use factorenergia\queue\JobInterface;
 
 /**
  * Simple Job.

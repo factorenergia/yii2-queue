@@ -9,8 +9,8 @@ namespace tests\closure;
 
 use tests\TestCase;
 use Yii;
-use yii\queue\closure\Behavior;
-use yii\queue\sync\Queue;
+use factorenergia\queue\closure\Behavior;
+use factorenergia\queue\sync\Queue;
 
 /**
  * Closure Test.

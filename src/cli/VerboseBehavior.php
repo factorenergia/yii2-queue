@@ -5,13 +5,13 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\cli;
+namespace factorenergia\queue\cli;
 
 use yii\base\Behavior;
 use yii\console\Controller;
 use yii\helpers\Console;
-use yii\queue\ExecEvent;
-use yii\queue\JobInterface;
+use factorenergia\queue\ExecEvent;
+use factorenergia\queue\JobInterface;
 
 /**
  * Verbose Behavior.

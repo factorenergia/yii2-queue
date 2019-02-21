@@ -16,7 +16,7 @@ return [
             // ...
         ],
         'queue' => [
-            'class' => \yii\queue\db\Queue::class,
+            'class' => \factorenergia\queue\db\Queue::class,
             'db' => 'db', // Компонент подключения к БД или его конфиг
             'tableName' => '{{%queue}}', // Имя таблицы
             'channel' => 'default', // Выбранный для очереди канал
@@ -61,7 +61,7 @@ CREATE TABLE `queue` (
         'migrationPath' => null,
         'migrationNamespaces' => [
             // ...
-            'yii\queue\db\migrations',
+            'factorenergia\queue\db\migrations',
         ],
     ],
 ],

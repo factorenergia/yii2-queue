@@ -18,7 +18,7 @@ return [
             // ...
         ],
         'queue' => [
-            'class' => \yii\queue\redis\Queue::class,
+            'class' => \factorenergia\queue\redis\Queue::class,
             'redis' => 'redis', // 连接组件或它的配置
             'channel' => 'queue', // Queue channel key
         ],

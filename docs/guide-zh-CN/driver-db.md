@@ -16,7 +16,7 @@ return [
             // ...
         ],
         'queue' => [
-            'class' => \yii\queue\db\Queue::class,
+            'class' => \factorenergia\queue\db\Queue::class,
             'db' => 'db', // DB 连接组件或它的配置
             'tableName' => '{{%queue}}', // 表名
             'channel' => 'default', // Queue channel key
@@ -59,7 +59,7 @@ CREATE TABLE `queue` (
         'migrationPath' => null,
         'migrationNamespaces' => [
             // ...
-            'yii\queue\db\migrations',
+            'factorenergia\queue\db\migrations',
         ],
     ],
 ],

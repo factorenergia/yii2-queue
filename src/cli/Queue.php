@@ -5,14 +5,14 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\cli;
+namespace factorenergia\queue\cli;
 
 use Yii;
 use yii\base\BootstrapInterface;
 use yii\base\InvalidConfigException;
 use yii\console\Application as ConsoleApp;
 use yii\helpers\Inflector;
-use yii\queue\Queue as BaseQueue;
+use factorenergia\queue\Queue as BaseQueue;
 
 /**
  * Queue with CLI.

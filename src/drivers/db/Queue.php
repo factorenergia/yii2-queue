@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\db;
+namespace factorenergia\queue\db;
 
 use yii\base\Exception;
 use yii\base\InvalidArgumentException;
@@ -13,7 +13,7 @@ use yii\db\Connection;
 use yii\db\Query;
 use yii\di\Instance;
 use yii\mutex\Mutex;
-use yii\queue\cli\Queue as CliQueue;
+use factorenergia\queue\cli\Queue as CliQueue;
 
 /**
  * Db Queue.

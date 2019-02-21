@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\sqs;
+namespace factorenergia\queue\sqs;
 
 use yii\console\Exception;
-use yii\queue\cli\Command as CliCommand;
+use factorenergia\queue\cli\Command as CliCommand;
 
 /**
  * Manages application aws sqs-queue.

@@ -10,7 +10,7 @@ Syncronous 驱动
 return [
     'components' => [
         'queue' => [
-            'class' => \yii\queue\sync\Queue::class,
+            'class' => \factorenergia\queue\sync\Queue::class,
             'handle' => false, // 任务是否立即执行
         ],
     ],

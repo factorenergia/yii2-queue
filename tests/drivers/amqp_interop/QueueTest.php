@@ -11,7 +11,7 @@ use tests\app\PriorityJob;
 use tests\app\RetryJob;
 use tests\drivers\CliTestCase;
 use Yii;
-use yii\queue\amqp_interop\Queue;
+use factorenergia\queue\amqp_interop\Queue;
 
 /**
  * AMQP Queue Test.

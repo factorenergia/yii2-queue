@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\serializers;
+namespace factorenergia\queue\serializers;
 
 /**
  * Interface Serializer.

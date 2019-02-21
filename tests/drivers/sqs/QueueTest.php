@@ -10,7 +10,7 @@ namespace tests\drivers\sqs;
 use tests\app\RetryJob;
 use tests\drivers\CliTestCase;
 use Yii;
-use yii\queue\sqs\Queue;
+use factorenergia\queue\sqs\Queue;
 
 /**
  * SQS Queue Test.

@@ -5,11 +5,11 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\db;
+namespace factorenergia\queue\db;
 
 use yii\db\Query;
 use yii\helpers\Console;
-use yii\queue\cli\Action;
+use factorenergia\queue\cli\Action;
 
 /**
  * Info about queue status.

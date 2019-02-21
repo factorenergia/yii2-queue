@@ -12,7 +12,7 @@ return [
     ],
     'components' => [
         'queue' => [
-            'class' => \yii\queue\gearman\Queue::class,
+            'class' => \factorenergia\queue\gearman\Queue::class,
             'host' => 'localhost',
             'port' => 4730,
             'channel' => 'my_queue',

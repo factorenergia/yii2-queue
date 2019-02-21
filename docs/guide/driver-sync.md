@@ -10,7 +10,7 @@ Configuration example:
 return [
     'components' => [
         'queue' => [
-            'class' => \yii\queue\sync\Queue::class,
+            'class' => \factorenergia\queue\sync\Queue::class,
             'handle' => false, // whether tasks should be executed immediately
         ],
     ],

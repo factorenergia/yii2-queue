@@ -5,11 +5,11 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\closure;
+namespace factorenergia\queue\closure;
 
 use SuperClosure\Serializer;
-use yii\queue\PushEvent;
-use yii\queue\Queue;
+use factorenergia\queue\PushEvent;
+use factorenergia\queue\Queue;
 
 /**
  * Closure Behavior.

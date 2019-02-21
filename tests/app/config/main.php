@@ -16,10 +16,10 @@ $config = [
     ],
     'components' => [
         'syncQueue' => [
-            'class' => \yii\queue\sync\Queue::class,
+            'class' => \factorenergia\queue\sync\Queue::class,
         ],
         'fileQueue' => [
-            'class' => \yii\queue\file\Queue::class,
+            'class' => \factorenergia\queue\file\Queue::class,
         ],
         'mysql' => [
             'class' => \yii\db\Connection::class,
@@ -36,7 +36,7 @@ $config = [
             ],
         ],
         'mysqlQueue' => [
-            'class' => \yii\queue\db\Queue::class,
+            'class' => \factorenergia\queue\db\Queue::class,
             'db' => 'mysql',
             'mutex' => [
                 'class' => \yii\mutex\MysqlMutex::class,
@@ -48,7 +48,7 @@ $config = [
             'dsn' => 'sqlite:@runtime/yii2_queue_test.db',
         ],
         'sqliteQueue' => [
-            'class' => \yii\queue\db\Queue::class,
+            'class' => \factorenergia\queue\db\Queue::class,
             'db' => 'sqlite',
             'mutex' => \yii\mutex\FileMutex::class,
         ],
@@ -64,7 +64,7 @@ $config = [
             'charset' => 'utf8',
         ],
         'pgsqlQueue' => [
-            'class' => \yii\queue\db\Queue::class,
+            'class' => \factorenergia\queue\db\Queue::class,
             'db' => 'pgsql',
             'mutex' => [
                 'class' => \yii\mutex\PgsqlMutex::class,
@@ -78,10 +78,10 @@ $config = [
             'database' => getenv('REDIS_DB') ?: 1,
         ],
         'redisQueue' => [
-            'class' => \yii\queue\redis\Queue::class,
+            'class' => \factorenergia\queue\redis\Queue::class,
         ],
         'amqpQueue' => [
-            'class' => \yii\queue\amqp\Queue::class,
+            'class' => \factorenergia\queue\amqp\Queue::class,
             'host' => getenv('RABBITMQ_HOST') ?: 'localhost',
             'user' => getenv('RABBITMQ_USER') ?: 'guest',
             'password' => getenv('RABBITMQ_PASSWORD') ?: 'guest',
@@ -89,7 +89,7 @@ $config = [
             'exchangeName' => 'exchange-basic',
         ],
         'amqpInteropQueue' => [
-            'class' => \yii\queue\amqp_interop\Queue::class,
+            'class' => \factorenergia\queue\amqp_interop\Queue::class,
             'host' => getenv('RABBITMQ_HOST') ?: 'localhost',
             'user' => getenv('RABBITMQ_USER') ?: 'guest',
             'password' => getenv('RABBITMQ_PASSWORD') ?: 'guest',
@@ -97,7 +97,7 @@ $config = [
             'exchangeName' => 'exchange-interop',
         ],
         'beanstalkQueue' => [
-            'class' => \yii\queue\beanstalk\Queue::class,
+            'class' => \factorenergia\queue\beanstalk\Queue::class,
             'host' => getenv('BEANSTALK_HOST') ?: 'localhost',
         ],
     ],
@@ -106,7 +106,7 @@ $config = [
 if (defined('GEARMAN_SUCCESS')) {
     $config['bootstrap'][] = 'gearmanQueue';
     $config['components']['gearmanQueue'] = [
-        'class' => \yii\queue\gearman\Queue::class,
+        'class' => \factorenergia\queue\gearman\Queue::class,
         'host' => getenv('GEARMAN_HOST') ?: 'localhost',
     ];
 }
@@ -114,7 +114,7 @@ if (defined('GEARMAN_SUCCESS')) {
 if (getenv('AWS_SQS_ENABLED')) {
     $config['bootstrap'][] = 'sqsQueue';
     $config['components']['sqsQueue'] = [
-        'class' => \yii\queue\sqs\Queue::class,
+        'class' => \factorenergia\queue\sqs\Queue::class,
         'url' => getenv('AWS_SQS_URL'),
         'key' => getenv('AWS_KEY'),
         'secret' => getenv('AWS_SECRET'),

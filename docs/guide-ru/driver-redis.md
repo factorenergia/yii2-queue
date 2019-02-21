@@ -18,7 +18,7 @@ return [
             // ...
         ],
         'queue' => [
-            'class' => \yii\queue\redis\Queue::class,
+            'class' => \factorenergia\queue\redis\Queue::class,
             'redis' => 'redis', // Компонент подключения к Redis или его конфиг
             'channel' => 'queue', // Ключ канала очереди
         ],

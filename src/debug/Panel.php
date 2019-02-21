@@ -5,15 +5,15 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\debug;
+namespace factorenergia\queue\debug;
 
 use Yii;
 use yii\base\NotSupportedException;
 use yii\base\ViewContextInterface;
 use yii\helpers\VarDumper;
-use yii\queue\JobInterface;
-use yii\queue\PushEvent;
-use yii\queue\Queue;
+use factorenergia\queue\JobInterface;
+use factorenergia\queue\PushEvent;
+use factorenergia\queue\Queue;
 
 /**
  * Debug Panel.

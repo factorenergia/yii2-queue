@@ -5,13 +5,13 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\gii;
+namespace factorenergia\queue\gii;
 
 use Yii;
 use yii\base\BaseObject;
 use yii\gii\CodeFile;
-use yii\queue\JobInterface;
-use yii\queue\RetryableJobInterface;
+use factorenergia\queue\JobInterface;
+use factorenergia\queue\RetryableJobInterface;
 
 /**
  * This generator will generate a job.

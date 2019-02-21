@@ -9,7 +9,7 @@ namespace tests\drivers\amqp;
 
 use tests\drivers\CliTestCase;
 use Yii;
-use yii\queue\amqp\Queue;
+use factorenergia\queue\amqp\Queue;
 
 /**
  * AMQP Queue Test.

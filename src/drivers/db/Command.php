@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\db;
+namespace factorenergia\queue\db;
 
 use yii\console\Exception;
-use yii\queue\cli\Command as CliCommand;
+use factorenergia\queue\cli\Command as CliCommand;
 
 /**
  * Manages application db-queue.

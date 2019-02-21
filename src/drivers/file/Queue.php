@@ -5,14 +5,14 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\file;
+namespace factorenergia\queue\file;
 
 use Yii;
 use yii\base\InvalidArgumentException;
 use yii\base\InvalidConfigException;
 use yii\base\NotSupportedException;
 use yii\helpers\FileHelper;
-use yii\queue\cli\Queue as CliQueue;
+use factorenergia\queue\cli\Queue as CliQueue;
 
 /**
  * File Queue.

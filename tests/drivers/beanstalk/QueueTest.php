@@ -13,7 +13,7 @@ use tests\app\PriorityJob;
 use tests\app\RetryJob;
 use tests\drivers\CliTestCase;
 use Yii;
-use yii\queue\beanstalk\Queue;
+use factorenergia\queue\beanstalk\Queue;
 
 /**
  * Beanstalk Queue Test.

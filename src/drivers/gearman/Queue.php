@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\queue\gearman;
+namespace factorenergia\queue\gearman;
 
 use yii\base\NotSupportedException;
-use yii\queue\cli\Queue as CliQueue;
+use factorenergia\queue\cli\Queue as CliQueue;
 
 /**
  * Gearman Queue.

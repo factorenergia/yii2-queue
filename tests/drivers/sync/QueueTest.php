@@ -9,7 +9,7 @@ namespace tests\drivers\sync;
 
 use Yii;
 use tests\drivers\TestCase;
-use yii\queue\sync\Queue;
+use factorenergia\queue\sync\Queue;
 
 /**
  * Sync Queue Test.
