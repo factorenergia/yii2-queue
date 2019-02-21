@@ -208,15 +208,7 @@ abstract class Queue extends Component
         if ($event->error) {
             return $this->handleError($event);
         }
-        try {
-            $event->result = $event->job->execute($this);
-        } catch (\Exception $error) {
-            $event->error = $error;
-            return $this->handleError($event);
-        } catch (\Throwable $error) {
-            $event->error = $error;
-            return $this->handleError($event);
-        }
+        $event->result = $event->job->execute($this);        
         $this->trigger(self::EVENT_AFTER_EXEC, $event);
         return true;
     }
