@@ -12,9 +12,9 @@ It supports queues based on **DB**, **Redis**, **RabbitMQ**, **AMQP**, **Beansta
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-queue/v/stable.svg)](https://packagist.org/packages/yiisoft/yii2-queue)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-queue/downloads.svg)](https://packagist.org/packages/yiisoft/yii2-queue)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-queue.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-queue)
+[![Latest Stable Version](https://poser.pugx.org/factorenergia/yii2-queue/v/stable.svg)](https://packagist.org/packages/factorenergia/yii2-queue)
+[![Total Downloads](https://poser.pugx.org/factorenergia/yii2-queue/downloads.svg)](https://packagist.org/packages/factorenergia/yii2-queue)
+[![Build Status](https://travis-ci.org/factorenergia/yii2-queue.svg?branch=master)](https://travis-ci.org/factorenergia/yii2-queue)
 
 Installation
 ------------
@@ -24,13 +24,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yiisoft/yii2-queue
+php composer.phar require --prefer-dist factorenergia/yii2-queue
 ```
 
 or add
 
 ```
-"yiisoft/yii2-queue": "~2.0"
+"factorenergia/yii2-queue": "~2.0"
 ```
 
 to the require section of your `composer.json` file.

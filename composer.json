@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-queue",
+    "name": "factorenergia/yii2-queue",
     "description": "Yii2 Queue Extension which supported DB, Redis, RabbitMQ, Beanstalk, SQS and Gearman",
     "type": "yii2-extension",
     "keywords": ["yii", "queue", "async", "gii", "db", "redis", "rabbitmq", "beanstalk", "gearman", "sqs"],
@@ -11,9 +11,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-queue/issues",
-        "source": "https://github.com/yiisoft/yii2-queue",
-        "docs": "https://github.com/yiisoft/yii2-queue/blob/master/docs/guide"
+        "issues": "https://github.com/factorenergia/yii2-queue/issues",
+        "source": "https://github.com/factorenergia/yii2-queue",
+        "docs": "https://github.com/factorenergia/yii2-queue/blob/master/docs/guide"
     },
     "require": {
         "php": ">=5.5.0",
@@ -42,16 +42,16 @@
     },
     "autoload": {
         "psr-4": {
-            "yii\\queue\\": "src",
-            "yii\\queue\\amqp\\": "src/drivers/amqp",
-            "yii\\queue\\amqp_interop\\": "src/drivers/amqp_interop",
-            "yii\\queue\\beanstalk\\": "src/drivers/beanstalk",
-            "yii\\queue\\db\\": "src/drivers/db",
-            "yii\\queue\\file\\": "src/drivers/file",
-            "yii\\queue\\gearman\\": "src/drivers/gearman",
-            "yii\\queue\\redis\\": "src/drivers/redis",
-            "yii\\queue\\sync\\": "src/drivers/sync",
-            "yii\\queue\\sqs\\": "src/drivers/sqs"
+            "factorenergia\\queue\\": "src",
+            "factorenergia\\queue\\amqp\\": "src/drivers/amqp",
+            "factorenergia\\queue\\amqp_interop\\": "src/drivers/amqp_interop",
+            "factorenergia\\queue\\beanstalk\\": "src/drivers/beanstalk",
+            "factorenergia\\queue\\db\\": "src/drivers/db",
+            "factorenergia\\queue\\file\\": "src/drivers/file",
+            "factorenergia\\queue\\gearman\\": "src/drivers/gearman",
+            "factorenergia\\queue\\redis\\": "src/drivers/redis",
+            "factorenergia\\queue\\sync\\": "src/drivers/sync",
+            "factorenergia\\queue\\sqs\\": "src/drivers/sqs"
         }
     },
     "autoload-dev": {

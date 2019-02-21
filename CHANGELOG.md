@@ -55,7 +55,7 @@ Yii2 Queue Extension Change Log
 2.0.0 July 15, 2017
 -------------------
 
-- Enh: The package is moved to yiisoft/yii2-queue (zhuravljov)
+- Enh: The package is moved to factorenergia/yii2-queue (zhuravljov)
 
 1.1.0 July 12, 2017
 -------------------
